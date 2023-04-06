@@ -1,0 +1,19 @@
+{
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": ["GitHub.copilot", "ms-vscode.cpptools-extension-pack"],
+      "settings": {
+        "editor.defaultFormatter": "trunk.io",
+        "editor.formatOnSave": true
+      }
+    }
+  },
+  "features": {
+    "ghcr.io/devcontainers/features/python:1": {},
+    "ghcr.io/trunk-io/devcontainer-feature/trunk:1": {}
+  },
+  "remoteUser": "vscode"
+}
