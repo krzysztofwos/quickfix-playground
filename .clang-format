@@ -1,0 +1,8 @@
+BasedOnStyle: WebKit
+AccessModifierOffset: -4
+BreakBeforeBraces: Custom
+BraceWrapping:
+  BeforeElse: true
+IndentAccessModifiers: false
+IndentCaseLabels: false
+IndentWidth: 4
